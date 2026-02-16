@@ -56,7 +56,7 @@ Segment profitability across demographics and locations
 
 ## 🛠️ Technical Stack
 
-**Data:** Kaggle dataset (~100K campaigns) → Python (pandas) → Power BI
+**Data:** [Kaggle dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset/data) (200K rows, reduced to ~100K after cleaning) → Python (pandas) → Power BI
 **Model:** Star schema with 7 dimension tables
 **Visuals:** KPI cards, heatmaps, scatter plots, funnel, ribbon charts
 **DAX:** Custom measures for ROAS, ROI, CTR, CVR, CPA, CPC
@@ -90,6 +90,8 @@ Segment profitability across demographics and locations
 ## 📁 Project Structure
 ```
 marketing-analytics-dashboard/
+├── 1_Data_Exploration.ipynb              # EDA notebook
+├── 2_Data_Cleaning.ipynb                 # Data cleaning notebook
 ├── Marketing_Analytics_Dashboard.pbix    # Dashboard file
 ├── data/
 │   ├── marketing_data.csv                # Raw dataset
